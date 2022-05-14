@@ -1,13 +1,14 @@
 <template>
   <div>
       <div>
-        <h2>News</h2>
+        <h2>Test without menu</h2>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'News'
+  name: 'Test Menu',
+  layout: 'clean'
 }
 </script>

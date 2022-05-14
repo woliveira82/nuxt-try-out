@@ -1,19 +1,26 @@
-<!-- Please remove this file from your project -->
 <template>
   <div id="character-bar">
     <div>
       <b-avatar></b-avatar>
     </div>
     <div id="character-name">
-      Name 
+      {{ character.name }}
     </div>
-    
   </div>
 </template>
 
 <script>
 export default {
-  name: 'ShortCharacter'
+  data() {
+    return {
+      character: {
+        name: 'Name',
+      }
+    }
+  },
+  async fetch() {
+    this.character = await this.$axios.$get('/characters')
+  }
 }
 </script>
 

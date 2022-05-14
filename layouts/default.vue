@@ -7,7 +7,7 @@
         <b-nav-item><NuxtLink to="/city">City</NuxtLink></b-nav-item>
       </b-nav>
     </div>
-    <Character />
+    <CharacterBar />
     <div id="main">
       <Nuxt />
     </div>

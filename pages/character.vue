@@ -1,18 +1,18 @@
 <template>
   <div>
     <b-nav pills>
-      <b-nav-item active>News</b-nav-item>
-      <b-nav-item><NuxtLink to="/character">Character</NuxtLink></b-nav-item>
+      <b-nav-item><NuxtLink :to="{ name: 'index' }">News</NuxtLink></b-nav-item>
+      <b-nav-item active>Character</b-nav-item>
       <b-nav-item><NuxtLink to="/city">City</NuxtLink></b-nav-item>
     </b-nav>
-      <div>
-        <h2>News</h2>
+    <div>
+      <h2>Character</h2>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'News'
+  name: 'Character'
 }
 </script>

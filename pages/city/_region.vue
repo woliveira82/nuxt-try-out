@@ -6,7 +6,7 @@
       <b-nav-item><NuxtLink to="/city">City</NuxtLink></b-nav-item>
     </b-nav>
     <div>
-      <h2>Region</h2>
+      <h2>Region {{ $route.params.region }}</h2>
     </div>
   </div>
 </template>

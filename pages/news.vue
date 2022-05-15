@@ -8,6 +8,10 @@
 
 <script>
 export default {
-  name: 'News'
+  head() {
+    return {
+      title: 'Try-out | News'
+    }
+  }
 }
 </script>

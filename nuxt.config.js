@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'nuxt-try-out',
+    title: 'Try-out',
     htmlAttrs: {
       lang: 'en'
     },

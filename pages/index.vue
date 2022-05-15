@@ -8,7 +8,11 @@
 
 <script>
 export default {
-  name: 'login',
-  layout: 'clean'
+  layout: 'clean',
+  head() {
+    return {
+      title: 'Try-out | Login'
+    }
+  }
 }
 </script>

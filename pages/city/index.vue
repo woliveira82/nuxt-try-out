@@ -8,6 +8,10 @@
 
 <script>
 export default {
-  name: 'City'
+  head() {
+    return {
+      title: 'Try-out | City'
+    }
+  }
 }
 </script>

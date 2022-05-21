@@ -19,7 +19,7 @@ export default {
     }
   },
   async fetch() {
-    this.character = await this.$axios.$get('/characters')
+    this.character = await this.$axios.$get('/api/v1/characters/1');
   }
 }
 </script>

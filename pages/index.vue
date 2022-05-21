@@ -1,7 +1,8 @@
 <template>
   <div>
       <div>
-        <h2>Login page</h2>
+        <h2><NuxtLink :to="{ name: 'news' }">Login page</NuxtLink></h2>
+
     </div>
   </div>
 </template>

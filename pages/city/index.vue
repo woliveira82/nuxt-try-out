@@ -20,11 +20,6 @@
 
 <script>
 export default {
-  data() {
-    return {
-      regions: []
-    }
-  },
   head() {
     return {
       title: 'Try-out | City'

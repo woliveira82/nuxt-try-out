@@ -5,6 +5,7 @@
         <b-nav-item><NuxtLink :to="{ name: 'news' }">News</NuxtLink></b-nav-item>
         <b-nav-item><NuxtLink to="/character">Character</NuxtLink></b-nav-item>
         <b-nav-item><NuxtLink to="/city">City</NuxtLink></b-nav-item>
+        <b-nav-item><NuxtLink to="/">Logout</NuxtLink></b-nav-item>
       </b-nav>
     </div>
     <CharacterBar />

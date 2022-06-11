@@ -10,6 +10,11 @@
         </li>
       </ul>
     </div>
+    <div>
+    <pre>
+    {{ $store.state.character }}
+    </pre>
+    </div>
   </div>
 </template>
 

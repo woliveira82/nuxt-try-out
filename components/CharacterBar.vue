@@ -4,7 +4,7 @@
       <b-avatar></b-avatar>
     </div>
     <div id="character-name">
-      {{ character.name }}
+      {{ character.name }} - {{ character.region_id }}
     </div>
   </div>
 </template>
